@@ -55,7 +55,7 @@ export default function CartPage() {
     }
 
     // Owner's WhatsApp number
-    const ownerWhatsAppNumber = "2349078048405"
+    const ownerWhatsAppNumber = "2348129575793"
 
     // 1. Message to owner
     let ownerMessage = `*New Order from CRIB Website*\n\n`
@@ -188,7 +188,7 @@ export default function CartPage() {
 
   // Open WhatsApp directly
   const openOwnerWhatsApp = () => {
-    window.open(`https://wa.me/2349078048405`, "_blank")
+    window.open(`https://wa.me/2348129575793`, "_blank")
     toast({
       title: "Opening WhatsApp",
       description: "Please paste the order details in the chat",
