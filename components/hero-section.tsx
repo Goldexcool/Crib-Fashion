@@ -23,8 +23,8 @@ export default function HeroSection() {
   }, [heroImages.length])
 
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image Slider */}
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background Image Slider - Adjust z-index */}
       <AnimatePresence mode="wait">
         <motion.div
           key={currentImage}
@@ -69,8 +69,8 @@ export default function HeroSection() {
         ))}
       </div>
 
-      {/* Content */}
-      <div className="container relative z-10 px-4">
+      {/* Content - make sure this is properly positioned */}
+      <div className="container relative z-10 px-4 pt-32 md:pt-40">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

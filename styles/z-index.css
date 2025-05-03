@@ -1,0 +1,18 @@
+/* Z-index layering system */
+:root {
+  --z-base: 0;
+  --z-content: 10;
+  --z-header: 40;
+  --z-overlay: 50;
+  --z-modal: 60;
+  --z-menu: 70;
+  --z-top: 100;
+}
+
+.z-base { z-index: var(--z-base); }
+.z-content { z-index: var(--z-content); }
+.z-header { z-index: var(--z-header); }
+.z-overlay { z-index: var(--z-overlay); }
+.z-modal { z-index: var(--z-modal); }
+.z-menu { z-index: var(--z-menu); }
+.z-top { z-index: var(--z-top); }
