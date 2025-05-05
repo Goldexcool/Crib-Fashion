@@ -67,7 +67,7 @@ export default function ShopPage() {
 
             <div className="flex items-center gap-4">
               <div className="hidden md:block text-sm text-gray-400">
-                Price Range: ${priceRange[0]} - ${priceRange[1]}
+                Price Range: N{priceRange[0]} - N{priceRange[1]}
               </div>
 
               <DropdownMenu>

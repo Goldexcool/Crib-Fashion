@@ -77,7 +77,7 @@ export default function Footer() {
               </motion.h2>
             </Link>
             <p className="text-gray-400">
-              Elevating streetwear to new dimensions with cutting-edge designs and innovative materials for the digital
+            This isn't just a fit—it's your voice stitched into fabric. Join the movement, wear your identity, and tag us to get featured. Let the streets know you've arrived.
               generation.
             </p>
             <div className="flex space-x-4">

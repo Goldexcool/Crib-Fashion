@@ -16,9 +16,9 @@ export default function CollectionsPage() {
   const collections = [
     {
       id: "nexus",
-      name: "Nexus Collection",
+      name: "La Crib Collection",
       description:
-        "Where digital aesthetics meet physical reality. Our flagship collection blends cutting-edge materials with futuristic designs for the digital native.",
+        "Discover collections that speak your language—relaxed fits, premium textures, and cuts that command attention. Comfort is our code. Elegance is our edge.",
       image: crib1,
       link: "/shop?collection=nexus",
       featured: "Time velo edition",

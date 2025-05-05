@@ -11,7 +11,7 @@ import { FaArrowRight } from "react-icons/fa"
 export default function FeaturedCollection() {
   const containerRef = useRef<HTMLDivElement>(null)
   const [isHovered, setIsHovered] = useState(false)
-  
+
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ["start end", "end start"],
@@ -30,17 +30,16 @@ export default function FeaturedCollection() {
       <div className="container mx-auto px-4 relative z-10">
         <motion.div style={{ opacity }} className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-600">
-            NEXUS COLLECTION
+            LA CRIB DA DRIP EDITION
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Where digital aesthetics meet physical reality. Our flagship collection blends cutting-edge materials with
-            futuristic designs for the digital native.
+          Discover collections that speak your language—relaxed fits, premium textures, and cuts that command attention. Comfort is our code. Elegance is our edge.
           </p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
-          <motion.div 
-            style={{ y: y1 }} 
+          <motion.div
+            style={{ y: y1 }}
             className="relative h-[600px] rounded-lg overflow-hidden group"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
@@ -59,21 +58,21 @@ export default function FeaturedCollection() {
 
           <motion.div style={{ y: y2 }} className="space-y-8">
             <div className="p-6 rounded-lg bg-white/5 backdrop-blur-sm border border-white/10 transition-all duration-300 hover:bg-white/10 hover:border-white/20">
-              <h3 className="text-xl font-bold mb-4 text-white">Adaptive Materials</h3>
+              <h3 className="text-xl font-bold mb-4 text-white">The Vibe</h3>
               <p className="text-gray-300">
-                Our proprietary fabrics respond to environmental changes, providing optimal comfort in any condition
-                while maintaining the distinctive CRIB aesthetic. Experience temperature regulation like never before.
+                “Drip Without Compromise.”
+                Discover collections that speak your language—relaxed fits, premium textures, and cuts that command attention. Comfort is our code. Elegance is our edge.
               </p>
             </div>
 
             <div className="p-6 rounded-lg bg-gradient-to-r from-purple-900/30 to-cyan-900/30 backdrop-blur-sm border border-white/10 transition-all duration-300 hover:from-purple-900/40 hover:to-cyan-900/40 hover:border-white/20">
               <div className="flex items-center justify-between mb-4">
-                <h3 className="text-xl font-bold text-white">Digital Integration</h3>
+                <h3 className="text-xl font-bold text-white">The Craft</h3>
                 <IoMdMan className="text-cyan-400 text-xl" />
               </div>
               <p className="text-gray-300 mb-3">
-                Each piece contains embedded NFC technology, connecting your physical garment to its digital twin in the
-                CRIB metaverse. Scan with your phone to unlock exclusive content, verify authenticity, and track your item's journey.
+                “Tailored for Chaos. Styled for Comfort.”
+                Every piece is engineered for everyday rebellion. From hoodie to hem, we blend soft-core comfort with street-bred structure—because style shouldn’t come with sacrifice.
               </p>
               <div className="mt-4 bg-black/30 p-3 rounded border border-cyan-900/50 text-xs text-gray-400">
                 Owners gain access to members-only events, limited drops, and digital wearables for your virtual avatar.
@@ -81,10 +80,10 @@ export default function FeaturedCollection() {
             </div>
 
             <div className="p-6 rounded-lg bg-white/5 backdrop-blur-sm border border-white/10 transition-all duration-300 hover:bg-white/10 hover:border-white/20">
-              <h3 className="text-xl font-bold mb-4 text-white">Limited Availability</h3>
+              <h3 className="text-xl font-bold mb-4 text-white">The Challenge</h3>
               <p className="text-gray-300">
-                The Nexus Collection is produced in limited quantities, ensuring exclusivity and reducing environmental
-                impact. Each numbered piece comes with a certificate of authenticity on the blockchain.
+                “Show Up. Stand Out. #NoteTheCrib”
+                This isn’t just a fit—it’s your voice stitched into fabric. Join the movement, wear your identity, and tag us to get featured. Let the streets know you’ve arrived.
               </p>
             </div>
           </motion.div>

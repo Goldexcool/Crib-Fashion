@@ -109,8 +109,8 @@ export default function HeroSection() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            Elevating streetwear to new dimensions with cutting-edge designs and innovative materials for the digital
-            generation.
+           Where Street Meets Class - Welcome to the Crib.
+           Ditch the discomfort. Own the streets in pieces designed for motion, made for presence. Note Crib Fashion isn&apos;t just what you wear—it&apos;s how you arrive.
           </motion.p>
 
           <motion.div

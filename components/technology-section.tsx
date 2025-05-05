@@ -23,23 +23,23 @@ export default function TechnologySection() {
   const techFeatures = [
     {
       id: "materials",
-      title: "Advanced Materials",
+      title: "Drip Without Compromise",
       description:
-        "Our proprietary fabrics blend nano-tech fibers with sustainable materials, creating garments that adapt to your environment while minimizing ecological impact.",
+        "Discover collections that speak your language—relaxed fits, premium textures, and cuts that command attention. Comfort is our code. Elegance is our edge.",
       image: crib5,
     },
     {
       id: "connectivity",
-      title: "Digital Connectivity",
+      title: "Tailored for Chaos. Styled for Comfort",
       description:
-        "Each CRIB piece contains embedded NFC technology, connecting your physical garment to its digital twin in the CRIB ecosystem, unlocking exclusive content and experiences.",
+        "Every piece is engineered for everyday rebellion. From hoodie to hem, we blend soft-core comfort with street-bred structure—because style shouldn't come with sacrifice.",
       image: crib6,
     },
     {
-      id: "customization",
-      title: "Adaptive Customization",
+      id: "Drip Without Compromise.",
+      title: "We Don't Follow Trends. We Redefine Them.",
       description:
-        "Our app allows you to customize certain elements of your garments, from color-shifting patterns to interactive lighting elements that respond to music or movement.",
+        "We Don't Follow Trends. We Redefine Them.At Note Crib Fashion, we fuse the raw energy of streetwear with sleek, everyday comfort. Born for the bold, built for youth, and designed to disrupt—this is fashion on your terms.",
       image: crib8,
     },
   ]

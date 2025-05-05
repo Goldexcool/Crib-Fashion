@@ -11,8 +11,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "CRIB | Future Fashion Redefined",
   description:
-    "Elevating streetwear to new dimensions with cutting-edge designs and innovative materials for the digital generation.",
-    generator: 'v0.dev'
+    "This isn’t just a fit—it’s your voice stitched into fabric. Join the movement, wear your identity, and tag us to get featured. Let the streets know you’ve arrived.",
 }
 
 export default function RootLayout({
