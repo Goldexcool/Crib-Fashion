@@ -54,7 +54,7 @@ export default function Footer() {
   ]
 
   const socialLinks = [
-    { icon: Instagram, href: "#" },
+    { icon: Instagram, href: "https://www.instagram.com/01_cribsfashion?igsh=cXpwbTFiaTl3dzcw&utm_source=qr" },
     { icon: Twitter, href: "#" },
     { icon: Youtube, href: "#" },
     { icon: Facebook, href: "#" },
