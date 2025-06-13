@@ -24,7 +24,7 @@ const products = [
   {
     id: 1,
     name: "Time velo edition",
-    price: 15000,
+    price: 16000,
     description:
       "The Time velo edition represents the pinnacle of futuristic streetwear. Crafted with our proprietary light-reactive fabric, this piece transforms its appearance based on ambient lighting conditions. The jacket features adaptive thermal regulation, keeping you comfortable in any environment.",
     features: [
@@ -47,7 +47,7 @@ const products = [
   {
     id: 2,
     name: "Awakening edition",
-    price: 15000,
+    price: 16000,
     description:
       "The Awakening edition is designed for the digital native. This versatile piece features our signature adaptive materials that respond to your body temperature, providing optimal comfort in any setting.",
     features: [
@@ -70,7 +70,7 @@ const products = [
   {
     id: 3,
     name: "Steeze 425 edition",
-    price: 20000,
+    price: 21000,
     description:
       "The Steeze 425 edition combines cutting-edge design with unparalleled comfort. These bottoms feature our proprietary stretch fabric that moves with you while maintaining structural integrity and a futuristic aesthetic.",
     features: [
@@ -93,7 +93,7 @@ const products = [
   {
     id: 4,
     name: "La crib da drop edition",
-    price: 21000,
+    price: 22000,
     description:
       "The La crib da drop edition is our flagship product featuring premium cotton fiber and futuristic design elements. This statement piece integrates our NFC technology, connecting your physical garment to its digital twin in the CRIB metaverse.",
     features: [
