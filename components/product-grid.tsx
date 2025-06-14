@@ -45,7 +45,7 @@ const products = [
   {
     id: 3,
     name: "Steeze 425 edition",
-    price: 21000,
+    price: 25000,
     image: crib3,
     category: "Bottoms",
   },
