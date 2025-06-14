@@ -21,13 +21,12 @@ export default function LookbookPage() {
 
   const collections = ["FW24", "SS24", "FW23", "SS23", "Archive"]
 
-  // Using real product data from the product grid
   const lookbookImages = [
     {
       id: 1,
       src: crib1,
       alt: "Time velo edition",
-      price: 16000,
+      price: 25000,
       category: "Outerwear",
       products: ["Time velo edition"],
     },
@@ -35,7 +34,7 @@ export default function LookbookPage() {
       id: 2,
       src: crib2,
       alt: "Awakening edition",
-      price: 16000,
+      price: 25000,
       category: "Tops",
       products: ["Awakening edition"],
     },
@@ -43,7 +42,7 @@ export default function LookbookPage() {
       id: 3,
       src: crib3,
       alt: "Steeze 425 edition",
-      price: 21000,
+      price: 25000,
       category: "Bottoms",
       products: ["Steeze 425 edition"],
     },
@@ -51,7 +50,7 @@ export default function LookbookPage() {
       id: 4,
       src: crib5,
       alt: "La crib da drop edition",
-      price: 22000,
+      price: 25000,
       category: "Tops",
       products: ["La crib da drop edition"],
     },
@@ -59,7 +58,7 @@ export default function LookbookPage() {
       id: 5,
       src: crib6,
       alt: "La crib da drop edition",
-      price: 22000,
+      price: 25000,
       category: "Tops",
       products: ["La crib da drop edition"],
     },
@@ -67,7 +66,7 @@ export default function LookbookPage() {
       id: 6,
       src: crib8,
       alt: "Crib crop top for female",
-      price: 7000,
+      price: 10000,
       category: "Tops",
       products: ["Crib crop top for female"],
     },
